@@ -41,7 +41,7 @@ pub async fn uart_rx_task(mut rx: UartRx<'static, Async>) {
     loop {
         // info!("waiting for RX!");
         let n = unwrap!(rx.read_until_idle(&mut buf).await);
-        // info!("RX received");
+        info!("RX received");
         for i in 0..n {
             let _ = datain.push(buf[i] as char);
         }
