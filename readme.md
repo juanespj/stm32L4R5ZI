@@ -1,1 +1,7 @@
-https://docs.embassy.dev/embassy-stm32/git/stm32l4r5zi/index.html
+# Embassy Demo using STM32L4RZI
+Uart Interface
+Buttons
+ST7735 LCD
+Stepper Control
+
+*WIP
